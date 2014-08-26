@@ -7,9 +7,9 @@ Gem::Specification.new do |spec|
   spec.name          = "interface"
   spec.version       = Interface::VERSION
   spec.authors       = ["Nathan Villarreal"]
-  spec.email         = ["nathanv@eternavi.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.email         = ["nathanv@createthebridge.com"]
+  spec.summary       = "A small CSS framework."
+  spec.description   = "S small CSS frameowork to be used with the zurb foundation framework."
   spec.homepage      = ""
   spec.license       = "MIT"
 

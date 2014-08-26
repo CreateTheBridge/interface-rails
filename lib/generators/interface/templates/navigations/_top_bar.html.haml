@@ -1,0 +1,10 @@
+.large-12.columns
+  = yield :section_title
+  %nav.top-navigation
+    = current_user.email
+    %i.fa.fa-caret-down
+    %ul.sub-navigation
+      %li
+        = link_to 'Home' , root_path
+      %li
+        = link_to 'Logout', destroy_user_session_path, :method=>'delete'
