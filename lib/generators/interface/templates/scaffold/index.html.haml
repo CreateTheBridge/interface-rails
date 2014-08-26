@@ -9,7 +9,6 @@
           %ul.inline-list
           <% attributes.reject(&:password_digest?).each do |attribute| %>
             %li
-              %span <%= attribute.human_name %>
               = <%= singular_table_name %>.<%= attribute.name %>
           <% end %>
             %ul.inline-list.right
