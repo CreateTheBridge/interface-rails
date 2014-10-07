@@ -1,6 +1,6 @@
 # Interface
 
-TODO: Write a gem description
+Interface provides a CSS scaffold and overrides for view scaffolds.
 
 ## Installation
 
@@ -18,7 +18,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Install interfaces components with:
+
+    $ rails generate interface:install 
 
 ## Contributing
 
