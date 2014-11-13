@@ -53,7 +53,7 @@ $list-item-background-color: white;
 $list-item-background-color-odd: scale_color($list-item-background-color, $lightness: -3%);
 
 // Borders
-$round-edges: rem-calc(3);
+$round-edges: rem-calc(5);
 $border-color: $light-green;
 
 // Flashes
@@ -76,22 +76,24 @@ $icon-color: $gray;
 $icon-color-hover: scale_color($icon-color, $lightness: -20%);
 
 // Navigations
+$use-sidebar: false;
+
 $sidebar-width: rem-calc(260);
 $sidebar-background-color: $dark-blue;
 $sidebar-color: white;
 $sidebar-color-hover: scale_color($sidebar-color, $lightness: -20%);
 $sidebar-color-active: scale_color($sidebar-color, $lightness: -30%);
 
-$small-sidebar-width: rem-calc(70);
-$small-sidebar-background-color: $dark-blue;
-$small-sidebar-color: white;
-$small-sidebar-color-hover: scale_color($sidebar-color, $lightness: -20%);
-$small-sidebar-color-active: scale_color($sidebar-color, $lightness: -30%);
+$thin-sidebar-width: rem-calc(70);
+$thin-sidebar-background-color: $dark-blue;
+$thin-sidebar-color: white;
+$thin-sidebar-color-hover: scale_color($thin-sidebar-color, $lightness: -20%);
+$thin-sidebar-color-active: scale_color($thin-sidebar-color, $lightness: -30%);
 
 $topbar-background-color: $dark-blue;
-$topbar-background-color-hover: scale_color($topbar-background-color, $lightness: 5%);
 $topbar-color: white;
 $topbar-color-hover: scale_color($topbar-color, $lightness: -20%);
+$topbar-color-active: scale_color($thin-sidebar-color, $lightness: -30%);
 
 // Plans
 $plan-background-color: $dark-blue;

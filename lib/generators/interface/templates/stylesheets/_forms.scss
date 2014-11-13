@@ -15,19 +15,19 @@
     background-color: $form-background-color-focus;
   }
 
-  ::-webkit-input-placeholder {
+  &::-webkit-input-placeholder {
     color: $placeholder-text-color;
   }
 
-  :-moz-placeholder {
+  &:-moz-placeholder {
     color: $placeholder-text-color;
   }
 
-  ::-moz-placeholder {
+  &::-moz-placeholder {
     color: $placeholder-text-color;
   }
 
-  :-ms-input-placeholder {
+  &:-ms-input-placeholder {
     color: $placeholder-text-color;
   }
 }
@@ -42,8 +42,9 @@ textarea  {
   @extend %input;
 }
 
-input[type="checkbox"] {
-  margin: 0 1em 0 0;
+input[type="checkbox"],
+input[type="radio"] {
+  margin-right: 1em;
 }
 
 label {

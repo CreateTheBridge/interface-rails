@@ -17,20 +17,10 @@ dl {
   }
 }
 
-.inline-list {
-  margin: 0;
-
-  & > li {
-    margin: 0;
-    padding: 1em;
-  }
-}
-
 .index-container {
-
   .list-item {
-    background-color: $list-item-background-color;
     padding: 1em 0;
+    background-color: $list-item-background-color;
 
     &:nth-child(even) {
       background-color: $list-item-background-color-odd;
@@ -41,5 +31,4 @@ dl {
     @extend %button;
     margin-right: 1em;
   }
-
 }

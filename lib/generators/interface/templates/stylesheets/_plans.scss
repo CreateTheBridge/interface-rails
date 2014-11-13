@@ -1,6 +1,5 @@
 // Plans
-.plan {
-
+%plan {
   ul {
     background-color: $plan-background-color;
     color: $plan-color;
@@ -45,6 +44,8 @@
     @extend %button;
     margin: 1em 0 2em 0;
   }
-
 }
 
+.plan {
+  @extend %plan;
+}

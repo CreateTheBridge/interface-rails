@@ -1,4 +1,3 @@
-@import 'foundation_and_overrides';
 @import 'variables';
 @import 'mixins';
 @import 'grid';
@@ -6,8 +5,8 @@
 @import 'typography';
 @import 'lists';
 @import 'forms';
-@import 'navigations';
 @import 'icons';
 @import 'plans';
 @import 'flashes';
 @import 'states';
+@import 'navigations/navigations';

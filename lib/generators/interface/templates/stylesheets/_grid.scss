@@ -4,6 +4,16 @@
   max-width: 100%
 }
 
+.large-row {
+  @include grid-row();
+  max-width: 85rem;
+}
+
+.medium-row {
+  @include grid-row();
+  max-width: 75rem;
+}
+
 // Grid Columns
 .no-padding-columns {
   @include grid-column();
