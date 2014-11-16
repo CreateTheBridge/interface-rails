@@ -1,8 +1,9 @@
-.large-12.columns
-  = yield :section_title
-  %nav.top-navigation
-    = current_user.email
-    %i.fa.fa-caret-down
+%nav.top-bar-container
+  Interface
+  .top-bar
+    %span
+      = current_user.email
+      %i.fa.fa-caret-down
     %ul.sub-navigation
       %li
         = link_to 'Home' , root_path

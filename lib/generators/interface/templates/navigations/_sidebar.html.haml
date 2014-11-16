@@ -1,10 +1,8 @@
-- if user_signed_in?
-  .sidebar-wrapper.hide-for-medium-down
-    %nav.sidebar
-      %ul
-        %li
-          %h3 Interface
-        = render 'navigations/links'
+%nav.sidebar-wrapper
+  .sidebar
+    %ul
+      %li
+      = render 'navigations/links'
 
-  = render 'navigations/offcanvas'
-  = render 'navigations/top_bar'
+= render 'navigations/offcanvas'
+= render 'navigations/top_bar'
