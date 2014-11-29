@@ -22,7 +22,6 @@
   }
 
   .close-button {
-    @extend .close;
     color: $close-color;
     opacity: 0.6;
   }

@@ -1,21 +1,21 @@
 // Thin Sidebar
-%thin-sidebar-wrapper {
-  margin-left: -$thin-sidebar-width;
-  position: fixed;
-  left: $thin-sidebar-width;
-}
-
 %thin-sidebar  {
-  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
   width: $thin-sidebar-width;
   background: $thin-sidebar-background-color;
   overflow-y: auto;
   z-index: 100;
 }
 
-nav.thin-sidebar-wrapper {
-  @extend %thin-sidebar;
-  @extend %thin-sidebar-wrapper;
+nav.thin-sidebar-container {
+  @media only screen and (max-width: 1024px) {
+    & {
+      display: none;
+    }
+  }
 }
 
 .thin-sidebar {

@@ -1,6 +1,7 @@
 // Links
 a {
   color: $link-color;
+  text-decoration: none;
 
   &:hover {
     color: $link-color-hover;
@@ -23,13 +24,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
+  margin: 1.5em 0;
   font-family: $font-family;
   font-weight: $font-weight;
   color: $font-color;
 }
 
 hr {
-  margin: 0;
   border-bottom: 1px solid $border-color;
   border-left: none;
   border-right: none;
@@ -51,3 +52,6 @@ cite {
     content: '\2014 \00A0';
   }
 }
+
+// Establish Baseline
+@include establish-baseline;

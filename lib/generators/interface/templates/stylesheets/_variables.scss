@@ -16,14 +16,21 @@ $orange: #f08a24;
 $body-background-color: white;
 
 // Typography
+$rem-base: 16px;
+$rhythm-unit: "rem";
+$base-font-size: 16px;
+$base-line-height: 24px;
 $font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 $font-weight: normal;
+$font-color: $medium-gray;
 $header-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 $header-font-weight: normal;
-$font-color: $medium-gray;
 $header-font-color: $dark-gray;
 
+
 // Buttons
+$button-font-size: rem-calc(14);
+$button-font-weight: $font-weight;
 $button-background-color: $light-green;
 $button-background-color-hover: scale_color($button-background-color, $lightness: -20%);
 $button-border: none;
@@ -31,7 +38,7 @@ $button-border-color: none;
 $button-border-color-hover: none;
 $button-color: white;
 $button-color-hover: white;
-$button-font-size: rem-calc(14);
+
 
 // Links
 $link-color: $light-blue;
@@ -71,12 +78,13 @@ $state-green-background-color: $green;
 $state-yellow-background-color: $yellow;
 $state-red-background-color: $red;
 
-//icons
+// Icons
 $icon-color: $gray;
 $icon-color-hover: scale_color($icon-color, $lightness: -20%);
 
 // Navigations
 $use-sidebar: false;
+$use-thin-sidebar: true;
 
 $sidebar-width: rem-calc(260);
 $sidebar-background-color: $dark-blue;
@@ -101,3 +109,7 @@ $plan-title-background-color: $dark-blue;
 $plan-price-background-color: scale_color($plan-background-color, $lightness: 5%);
 $plan-color: white;
 
+// Dropdowns
+$dropdown-background-color: $dark-blue;
+$dropdown-color: white;
+$dropdown-color-hover: scale_color($dropdown-color, $lightness: -20%);

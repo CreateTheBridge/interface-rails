@@ -1,21 +1,21 @@
 // Sidebar
-%sidebar-wrapper {
-  margin-left: -$sidebar-width;
-  position: fixed;
-  left: $sidebar-width;
-}
-
 %sidebar {
-  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
   width: $sidebar-width;
   background: $sidebar-background-color;
   overflow-y: auto;
   z-index: 100;
 }
 
-nav.sidebar-wrapper {
-  @extend %sidebar;
-  @extend %sidebar-wrapper;
+nav.sidebar-container {
+  @media only screen and (max-width: 1024px) {
+    & {
+      display: none;
+    }
+  }
 }
 
 .sidebar {
