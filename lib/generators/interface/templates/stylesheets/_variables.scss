@@ -84,7 +84,7 @@ $icon-color-hover: scale_color($icon-color, $lightness: -20%);
 
 // Navigations
 $use-sidebar: false;
-$use-thin-sidebar: true;
+$use-thin-sidebar: false;
 
 $sidebar-width: rem-calc(260);
 $sidebar-background-color: $dark-blue;
@@ -111,5 +111,5 @@ $plan-color: white;
 
 // Dropdowns
 $dropdown-background-color: $dark-blue;
-$dropdown-color: white;
+$dropdown-color: #666;
 $dropdown-color-hover: scale_color($dropdown-color, $lightness: -20%);

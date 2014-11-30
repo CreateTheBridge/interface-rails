@@ -6,12 +6,11 @@
 // Remove padding-left when sidebars not visible
 @media only screen and (min-width: 1024px) {
   main {
-    overflow: hidden;
     @if $use-sidebar == true {
         padding-left: $sidebar-width;
     }
     @if $use-thin-sidebar == true {
-      padding-left: $thin-sidebar-width;
+        padding-left: $thin-sidebar-width;
     }
   }
 }
