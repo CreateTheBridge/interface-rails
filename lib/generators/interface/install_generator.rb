@@ -16,8 +16,10 @@ module Interface
       def copy_stylesheets
         copy_file "stylesheets/_base.scss",                       "app/assets/stylesheets/_base.scss"
         copy_file "stylesheets/_buttons.scss",                    "app/assets/stylesheets/_buttons.scss"
+        copy_file "stylesheets/_dropdowns.scss",                  "app/assets/stylesheets/_dropdowns.scss"
         copy_file "stylesheets/_flashes.scss",                    "app/assets/stylesheets/_flashes.scss"
         copy_file "stylesheets/_forms.scss",                      "app/assets/stylesheets/_forms.scss"
+        copy_file "stylesheets/_functions.scss",                  "app/assets/stylesheets/_functions.scss"
         copy_file "stylesheets/_grid.scss",                       "app/assets/stylesheets/_grid.scss"
         copy_file "stylesheets/_icons.scss",                      "app/assets/stylesheets/_icons.scss"
         copy_file "stylesheets/_lists.scss",                      "app/assets/stylesheets/_lists.scss"
@@ -38,7 +40,6 @@ module Interface
 
       def copy_navigations
         copy_file "navigations/_links.html.haml",                 "app/views/navigations/_links.html.haml"
-        copy_file "navigations/_offcanvas.html.haml",             "app/views/navigations/_offcanvas.html.haml"
         copy_file "navigations/_sidebar.html.haml",               "app/views/navigations/_sidebar.html.haml"
         copy_file "navigations/_thin_sidebar.html.haml",          "app/views/navigations/_thin_sidebar.html.haml"
         copy_file "navigations/_top_bar.html.haml",               "app/views/navigations/_top_bar.html.haml"
