@@ -18,6 +18,7 @@ module Interface
         copy_file "stylesheets/_buttons.scss",                    "app/assets/stylesheets/_buttons.scss"
         copy_file "stylesheets/_dropdowns.scss",                  "app/assets/stylesheets/_dropdowns.scss"
         copy_file "stylesheets/_flashes.scss",                    "app/assets/stylesheets/_flashes.scss"
+        copy_file "stylesheets/_footers.scss",                    "app/assets/stylesheets/_footers.scss"
         copy_file "stylesheets/_forms.scss",                      "app/assets/stylesheets/_forms.scss"
         copy_file "stylesheets/_functions.scss",                  "app/assets/stylesheets/_functions.scss"
         copy_file "stylesheets/_grid.scss",                       "app/assets/stylesheets/_grid.scss"
@@ -26,6 +27,7 @@ module Interface
         copy_file "stylesheets/_mixins.scss",                     "app/assets/stylesheets/_mixins.scss"
         copy_file "stylesheets/_plans.scss",                      "app/assets/stylesheets/_plans.scss"
         copy_file "stylesheets/_states.scss",                     "app/assets/stylesheets/_states.scss"
+        copy_file "stylesheets/_tables.scss",                     "app/assets/stylesheets/_tables.scss"
         copy_file "stylesheets/_typography.scss",                 "app/assets/stylesheets/_typography.scss"
         copy_file "stylesheets/_variables.scss",                  "app/assets/stylesheets/_variables.scss"
         copy_file "stylesheets/navigations/_navigations.scss",    "app/assets/stylesheets/navigations/_navigations.scss"
@@ -45,6 +47,9 @@ module Interface
         copy_file "navigations/_top_bar.html.haml",               "app/views/navigations/_top_bar.html.haml"
       end
 
+      def copy_footers
+        copy_file "footers/_footer.html.haml",                    "app/views/footers/_footer.html.haml"
+      end
     end
   end
 end
