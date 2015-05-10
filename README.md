@@ -6,7 +6,7 @@ Interface provides a CSS scaffold and overrides for view scaffolds.
 
 Add this line to your application's Gemfile:
 
-    gem 'interface'
+    gem 'interface', :git => 'https://github.com/CreateTheBridge/Interface.git'
 
 And then execute:
 
